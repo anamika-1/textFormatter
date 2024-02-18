@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   height: 100vh; 
+   background-color: #18122B;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.container{
+    border-radius: 20px;
+    height: 70vh;
+    width: 30vw;
+    padding: 2rem;
+    background-color: #443C68;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.input-container{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.input-container h2{
+    word-spacing: 8px;
+    color: rgb(189, 214, 249);
+    font-size: 30px;
+    padding: 1rem;
+}
+
+.input-container #input-field{
+    margin: 1rem;
+    font-size: 18px;
+    color: #091239;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 18vh;
+    width: 25vw;
+    border: none;
+    border-style: none;
+    border-radius: 10px;
+}
+
+#copy-button{
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+
+.btn-container{
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    height: 35px;
+    width: 25vw;
+   
+}
+
+.btn-container .btn{
+    background-color: rgb(210, 236, 236);
+    color: #130202;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.underline{
+    text-decoration: underline;
+}
+.btn-container .btn:hover{
+   color: #181515; 
+   background-color: #c59ed7;
+}
+
